@@ -1,0 +1,104 @@
+body {
+    background-color: #050b0d;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    flex-direction: row;
+    text-align: right;
+
+}
+
+.header_title {
+    display: inline;
+    padding-right: 10px;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google_text {
+    font-size: 50px;
+}
+
+.search_bar {
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    width: 85%;
+    color: white;
+
+}
+
+.input:focus{
+    color: white;
+    outline: none;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+}
+
+.mic {
+    width: 17px;
+    height: 17px;
+    align-self: center;
+    padding-right: 15%;
+}
+
+.icons_div {
+    align-items: center;
+    display: flex;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foot1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1 {
+    margin: 20px;
+    background-color: rgb(40, 36, 36);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+
+}
+.f1:hover{
+    border: 1px solid white;
+}
+
+.foot_text{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.langauge{
+    color: skyblue;
+    margin-inline: 5px;
+}
