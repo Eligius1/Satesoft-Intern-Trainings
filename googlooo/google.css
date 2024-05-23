@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header_title{
+    text-align: right;
+}
+.header_top{
+    display:inline-block;
+    font-size: larger;
+}
+.header_top:hover{
+        color:skyblue;
+    }
+.header_t{
+    display: inline;
+    padding-right: 10px;
+    font-size: larger;
+    margin: auto;
+    height: 20px;
+    width: 70px;
+    background-color: blue;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+.header_t:hover{
+    border: 1px solid white;
+
+}
+.prof{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_text{
+    font-size:90px;
+}
+.search_bar {
+    width: 70%;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promt {
+    background-color: transparent;
+    border: none;
+    width: 85%;
+    color: white;
+    font-size: larger;
+}
+.promt:focus{
+    color: white;
+    outline: none;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    padding-right: 15px;
+}
+
+.mic {
+    width: 25px;
+    height: 25px;
+    align-self: center;
+    padding-right: 15%;
+}
+
+.icons_div {
+    align-items: center;
+    display: flex;
+
+}
+.tapp{
+    display: flex;
+}
+.tapp1{
+    margin: 10px;
+    background-color: grey;
+    border: 1px solid transparent;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tapp1:hover{
+    border: 1px solid aliceblue;
+}
+.foot1{
+    display: flex;
+}
+.langauge{
+    color: skyblue;
+    margin-inline: 5px;
+}
+.language:hover{
+    color:darkblue;
+}
+footer{
+    background-color: rgb(39, 38, 38);
+}
+.foot{
+    display: flex;
+}
+.mid_ft{
+    margin-inline: 5px;
+}
+.l_ft{
+    margin-inline: 5px;
+    align-self: right;
+
+    
+}
+.mid_ft:hover{
+    color:skyblue;
+}
+.l_ft:hover{
+    color:skyblue;
+}
