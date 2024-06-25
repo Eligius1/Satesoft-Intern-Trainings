@@ -17,3 +17,7 @@ console.log(h1Text);
 
 //manipulating the h1 element
 h1Tag.innerHTML = newDomText;
+//adding body
+let h1=document.createElement("h1");
+h1.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio modi, quasi consequatur doloribus animi expedita iste eligendi unde numquam natus suscipit impedit ab ducimus facilis incidunt quidem cum sunt?";
+document.body.appendChild(h1);
