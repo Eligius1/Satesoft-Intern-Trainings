@@ -2,7 +2,7 @@
 let paragraph = document.createElement("p");
 
 //asigning a value
-paragraph.innerHTML = "My paragraph";
+paragraph.innerHTML = "My paragraph",
 
 document.body.appendChild(paragraph);
 
@@ -17,3 +17,7 @@ console.log(h1Text);
 
 //manipulating the h1 element
 h1Tag.innerHTML = newDomText;
+let paragraph2=document.createElement("p");
+paragraph2.innerHTML ='Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minima dignissimos amet beatae quidem dolorum? Nulla dolore, excepturi esse nesciunt quo neque eos omnis ipsum repellat reprehenderit consequuntur quisquam assumenda?'
+document.body.appendChild(paragraph2);
+
