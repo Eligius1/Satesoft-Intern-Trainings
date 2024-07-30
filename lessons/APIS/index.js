@@ -13,6 +13,7 @@
 //         data asynchronously over the web.
 //         fetch(url, {options})
 
+//const url ="https://restcountries.com/v3.1/all"
 const url = "https://workout-buddy-0qcu.onrender.com/api/workouts";
 
 async function getData() {
